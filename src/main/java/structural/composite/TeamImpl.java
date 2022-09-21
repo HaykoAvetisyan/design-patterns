@@ -3,7 +3,7 @@ package structural.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeamImpl implements Team{
+public class TeamImpl implements Team {
 
     private List<Developer> developers = new ArrayList<>();
 
@@ -23,6 +23,6 @@ public class TeamImpl implements Team{
 
     @Override
     public void removeDeveloper(Developer developer) {
-developers.remove(developer);
+        developers.remove(developer);
     }
 }
